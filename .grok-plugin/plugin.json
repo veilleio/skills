@@ -1,0 +1,27 @@
+{
+  "name": "veille",
+  "version": "1.0.0",
+  "description": "Veille Email and VAT validation. Validate emails, domains, phones, IPs, VAT numbers, and IBANs before you trust a signup or invoice.",
+  "author": {
+    "name": "Veille",
+    "url": "https://www.veille.io"
+  },
+  "homepage": "https://docs.veille.io",
+  "repository": "https://github.com/veilleio/skills",
+  "keywords": [
+    "veille",
+    "email",
+    "vat",
+    "mcp"
+  ],
+  "skills": [
+    "./skills/veille-domain-check",
+    "./skills/veille-email-qualify",
+    "./skills/veille-email-validation",
+    "./skills/veille-exchange-rates",
+    "./skills/veille-iban-check",
+    "./skills/veille-ip-reputation",
+    "./skills/veille-phone-check",
+    "./skills/veille-vat-check"
+  ]
+}
